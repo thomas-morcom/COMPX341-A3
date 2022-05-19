@@ -59,4 +59,3 @@ export default class BestSellers extends React.Component<BestSellersProps, BestS
       </div>
     );
   }
-}
