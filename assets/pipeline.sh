@@ -1,3 +1,10 @@
+if [ $# -eq 0 ]
+then 
+    echo No commit message was given
+    echo Please supply a commit message to start the application
+    exit
+fi
+
 npm install
 if [ $? -ne 0 ] 
 then
@@ -11,11 +18,6 @@ then
     exit
 fi
 
-if [ $# -eq 0 ]
-then 
-    echo No commit message was given
-    exit
-fi
 git pull
 git add .
 git commit -m "$1"
