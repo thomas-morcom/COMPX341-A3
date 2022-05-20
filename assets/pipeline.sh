@@ -23,4 +23,11 @@ git add .
 git commit -m "$1"
 git push
 
+
+if [ $? -ne 0 ] 
+then
+    echo Git Push Failed
+    exit
+fi
+
 npm run start
