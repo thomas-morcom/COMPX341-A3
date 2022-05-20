@@ -1,4 +1,4 @@
-//
+// Name: Thomas Morcom  ID: 1539104
 export default {
   apiGateway: {
     REGION: "us-east-1",

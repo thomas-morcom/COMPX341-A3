@@ -1,4 +1,4 @@
-//
+// Name: Thomas Morcom  ID: 1539104
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",
